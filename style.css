@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Montserrat:wght@300;500;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f6f6f6;
+  width: 100%;
+  /* overflow-x: hidden; */
+}
+
+nav {
+  background-color: #4c4bef;
+}
+
+span {
+  color: white !important;
+}
+
+nav div ul li a {
+  color: white !important;
+  position: relative;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+nav ul li a:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: white;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s linear;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+nav ul li a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.jumbotron {
+  margin-bottom: 0 !important;
+}
+
+.header .jumbotron {
+  background-color: #4c4bef;
+}
+
+.header .jumbotron img {
+  width: 300px;
+  height: 300px;
+  margin-left: 150px;
+}
+
+.header .jumbotron h3 {
+  font-family: "Lora", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #232639;
+  font-size: 25px;
+}
+
+.header .jumbotron h1 {
+  font-family: "Lora", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 45;
+}
+
+.header .jumbotron p {
+  font-family: "Lora", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.skills h2 {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  color: #707070;
+  font-weight: bold;
+}
+
+.skills hr,
+.portfolio hr {
+  width: 200px;
+  background-color: #000000;
+}
+
+.figure {
+  background-color: #343891;
+  width: 100%;
+  height: 120px;
+}
+
+.skills .figure img {
+  width: 39px;
+  height: 39px;
+}
+
+.skills .container .figure-caption {
+  font-family: "Lora", Arial, Helvetica, sans-serif;
+}
+
+.experience,
+.information {
+  background-color: #4c4bef;
+}
+
+.experience h2,
+.information h2 {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.experience hr,
+.information hr {
+  width: 200px;
+  background-color: white;
+}
+
+.portfolio h2 {
+  color: #707070;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.portfolio img {
+  width: 100%;
+  height: 300px;
+}
+
+.information img {
+  width: 35px;
+  height: 35px;
+}
+
+footer {
+  background-color: #343891;
+}
+
+@media screen and (max-width: 576px) {
+  .skills .container .sub-skill {
+    margin-left: 75px;
+    width: 70%;
+  }
+
+  .information img {
+    margin-left: -5px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .header .jumbotron img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .header .jumbotron img {
+    width: 280px;
+    height: 280px;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+}

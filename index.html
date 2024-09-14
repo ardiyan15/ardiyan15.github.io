@@ -1,370 +1,340 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
-    <meta name="author" content="Sergey Pozhilov (GetTemplate.com)" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <title>Ardiyan Agus</title>
+    <title>Ardiyan Agus Prayogo</title>
 
-    <link rel="shortcut icon" href="assets/images/gt_favicon.png" />
-    <style>
-      .cv:hover {
-        text-decoration: none;
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <!-- Icons -->
-    <link
-      href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"
-      rel="stylesheet"
-    />
-    <!-- Fonts -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700"
-    />
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    
+<!--
+
+Tooplate 2115 Marvel
+
+https://www.tooplate.com/view/2115-marvel
+
+-->
   </head>
-  <body class="home">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <body>
 
-      <div
-        class="text-right pull-right collapse navbar-collapse"
-        id="navbarTogglerDemo03"
-        style="height: 40px"
-        id="navbarSupportedContent"
-      >
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
-            <!-- <a class="nav-link" href="<?= base_url('documents/cv.pdf') ?>" class="text-muted cv" target="_blank">Download My CV</a> -->
-          </li>
-        </ul>
-        <div class="form-inline my-2 my-lg-0">
-          <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
-              <a
-                class="nav-link"
-                href="documents/cv.pdf"
-                class="text-muted cv"
-                target="_blank"
-                >Download My CV</a
-              >
-            </li>
-          </ul>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Ardiyan Agus</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
         </div>
-        <!-- <div class="col-12 text-right">
-                <a href="<?= base_url('documents/cv.pdf') ?>" class="text-muted cv" target="_blank">Download My CV</a>
-            </div> -->
-      </div>
-
-      <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div> -->
     </nav>
-    <header id="header">
-      <div id="head" class="parallax" parallax-speed="2">
-        <h1 id="logo" class="text-center">
-          <img
-            style="border-radius: 75px"
-            height="150px;"
-            width="150px;"
-            src="assets/images/profile_2.jpeg"
-            alt=""
-          />
-          <br />
-          <span class="title text-white">Ardiyan Agus Prayogo</span>
-          <span class="tagline"
-            ><a class="text-white" href="">Ardhiyan15@gmail.com</a></span
-          >
-        </h1>
-      </div>
-    </header>
 
-    <main id="main">
-      <div class="container">
-        <div class="row section topspace">
-          <div class="col-md-12">
-            <p class="lead text-center text-muted">
-              experienced as a software engineer with 3+ years of experience
-              building many app's in production scale
-            </p>
-          </div>
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hey folks, I'm</span>
+                                <div class="animated-info">
+                                    <span class="">Fullstack Developer</span>
+                                    <!-- <span class="animated-item">Web Designer</span>
+                                    <span class="animated-item">UI Specialist</span> -->
+                                </div>
+                        </h1>
+
+                        <p>Building a successful product is a challenge. I am highly energetic in user experience need, interfaces and web development.</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="document/CV.pdf" target="_blank" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                          <!-- <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/undraw/undraw_progressive_app_m-9-ms.svg" class="img-fluid" alt="svg image">
+                    </div>
+                </div>
+
+            </div>
         </div>
+    </section>
 
-        <div class="row section featured topspace">
-          <h2 class="section-title text-center"><span>Services</span></h2>
-          <div class="row col-12">
-            <div class="col-xl-4 col-sm-12">
-              <h3 class="text-center section-title">Web Development</h3>
-              <div class="text-center">
-                <i class="fa fa-globe" style="font-size: 50px"></i>
-              </div>
-            </div>
-            <div class="col-xl-4 col-sm-12">
-              <h3 class="text-center">App Development</h3>
-              <div class="text-center">
-                <i class="fa fa-mobile" style="font-size: 50px"></i>
-              </div>
-            </div>
-            <div class="col-xl-4 col-sm-12">
-              <h3 class="text-center">Database Design</h3>
-              <div class="text-center">
-                <i class="fa fa-database" style="font-size: 50px"></i>
-              </div>
-            </div>
-          </div>
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+        <div class="container">
+                
+                <div class="row">
+                  <div class="col-lg-11 text-center mx-auto col-12">
+
+                      <div class="col-lg-8 mx-auto">
+                        <h2>I have created web apps for several companies</h2>
+                      </div>
+                      <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <div class="project-info" style="box-shadow: 10px;">
+                            <h4 style="position: absolute; margin-top: -5%;" class="text-center w-100">KPI Performance</h4>
+                            <img src="images/project/kpi.png" style="margin-top: 10%; margin-left: 11%; width: 80%;" class="shadow img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info" style="box-shadow: 10px;">
+                            <h4 style="position: absolute; margin-top: -5%;" class="text-center w-100">Cash Management System Bank Syariah Indonesia</h4>
+                            <img src="images/project/cms.png" style="margin-top: 10%; margin-left: 11%; width: 80%;" class="shadow img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info" style="box-shadow: 10px;">
+                            <h4 style="position: absolute; margin-top: -5%;" class="text-center w-100">Tokopedia Clone</h4>
+                            <img src="images/project/tokped.png" style="margin-top: 10%; margin-left: 11%; width: 80%;" class="shadow img-fluid" alt="project image">
+                          </div>
+                        </div>
+                  </div>
+                </div>
         </div>
-        <!-- / section -->
+    </section>
 
-        <div class="row section recentworks topspace" style="margin-top: 5%">
-          <h2 class="section-title"><span>Recent Works</span></h2>
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
 
-          <div class="thumbnails recentworks row" style="width: 100%">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-              <a class="thumbnail" href="sidebar-right.html">
-                <span class="img">
-                  <img src="assets/images/dw.png" alt="" />
-                  <span class="cover"
-                    ><span class="more">See details &rarr;</span></span
-                  >
-                </span>
-                <span class="title">Company Profile Dharmawidya's School</span>
-              </a>
-              <span class="details"
-                ><a href="">Web Development</a> |
-                <a href="">Codeigniter</a></span
-              >
-              <h4></h4>
-              <p></p>
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Experiences</h2>
+
+                    <div class="timeline">
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>Present</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>PHP Programmer</span><small>PT Square Gate One</small></h3>
+                                <p class="text-justify">As a PHP Programmer, I develop and maintain dynamic web applications, focusing on back-end development using PHP and frameworks like Laravel and Zend Framework.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2020</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h4><span>Junior Programmer</span><small>PT Hiro Technology Indoipta</small></h4>
+                                <p class="text-justify">As a Junior Programmer, I assist in the development and maintenance of software applications by writing clean, efficient code. I work with senior developers to implement features, fix bugs, and ensure system stability. </p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2018</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>IT Support<small>PT Gratia Prima Indonesia</small></h3>
+                                <p class="text-justify">As an IT Support specialist, I provide technical assistance to users by troubleshooting hardware, software, and network issues. I ensure smooth day-to-day operations by maintaining IT systems, installing and updating software.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2020</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Raharja University</span><small>Bachelor's Degree</small></h3>
+                                  <p>Informatics Engineering</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2015</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h5><span>SMK YUPPENTEK 1 TANGERANG</span><small>High School</small></h5>
+                                <p>Elektrical Engineering</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-12">
+                  <h2 class="text-center mb-4 mobile-mt-2">Skills</h2>
+                  <ul class="d-flex justify-content-around custom-display">
+                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
+                      <img src="images/skills/html.png" alt="html" style="width: 60px; height: 30px; margin-bottom: 10px;">
+                    <p>HTML</p>
+                    </li>
+                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
+                      <img src="images/skills/css.png" alt="css" style="width: 50px; height: 30px; margin-bottom: 10px;">
+                    <p>
+                      CSS
+                    </p>
+                    </li>
+                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
+                      <img src="images/skills/javascript.png" alt="javascript" style="width: 50px; height: 30px; margin-bottom: 10px;">
+                    <p>
+                      Javascript
+                    </p>
+                    </li>
+                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
+                      <img src="images/skills/php.png" alt="php" style="width: 50px; height: 30px; margin-bottom: 10px;">
+                    <p>
+                      PHP
+                    </p>
+                    </li>
+                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
+                      <img src="images/skills/bootstrap.png" alt="bootstrap" style="width: 60px; height: 30px; margin-bottom: 10px;">
+                    <p>Bootstrap</p>
+                    </li>
+                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
+                      <img src="images/skills/codeigniter.png" alt="codeigniter" style="width: 60px; height: 30px; margin-bottom: 10px;">
+                    <p>Codeigniter</p>
+                    </li>
+                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
+                      <img src="images/skills/laravel.png" alt="laravel" style="width: 60px; height: 30px; margin-bottom: 10px;">
+                    <p>Laravel</p>
+                    </li>
+                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
+                      <img src="images/skills/react.png" alt="reactjs" style="width: 60px; height: 30px; margin-bottom: 10px;">
+                    <p>ReactJs</p>
+                    </li>
+                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
+                      <img src="images/skills/nodejs.png" alt="nodejs" style="width: 60px; height: 30px; margin-bottom: 10px;">
+                    <p>NodeJs</p>
+                    </li>
+                  </ul>
+                </div>
+                
             </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-              <a class="thumbnail" href="sidebar-right.html">
-                <span class="img">
-                  <img src="assets/images/elibrary.png" alt="" />
-                  <span class="cover"
-                    ><span class="more">See details &rarr;</span></span
-                  >
-                </span>
-                <span class="title">Website E-Library</span>
-              </a>
-              <span class="details"
-                ><a href="">Web Development</a> | <a href="">NodeJs</a></span
-              >
-              <h4></h4>
-              <p></p>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-              <a class="thumbnail" href="sidebar-right.html">
-                <span class="img">
-                  <img src="assets/images/bsi_cms.png" alt="" />
-                  <span class="cover"
-                    ><span class="more">See details &rarr;</span></span
-                  >
-                </span>
-                <span class="title">Bank BSI CMS</span>
-              </a>
-              <span class="details"
-                ><a href="">Web Development</a> | <a href="">PHP</a></span
-              >
-              <h4></h4>
-              <p></p>
-            </div>
-          </div>
         </div>
+    </section>
 
-        <div class="row section clients topspace">
-          <h2 class="section-title"><span>Skills</span></h2>
-          <div class="col-lg-12">
-            <div class="row text-center mb-5">
-              <div class="col-md-2 offset-1">
-                <img
-                  src="assets/images/php.png"
-                  class="mb-3"
-                  style="width: 50px"
-                  height="45px;"
-                  alt=""
-                />
-                <br />
-                <span>PHP</span>
-              </div>
-              <div class="col-md-2">
-                <img
-                  src="assets/images/javascript.png"
-                  class="mb-3"
-                  style="width: 50px; height: 45px"
-                  alt=""
-                />
-                <br />
-                <span>JavaScript</span>
-              </div>
-              <div class="col-md-2">
-                <img
-                  src="assets/images/codeigniter.png"
-                  class="mb-3"
-                  style="width: 70px; height: 45px"
-                  alt=""
-                />
-                <br />
-                <span>Codeigniter</span>
-              </div>
-              <div class="col-md-2">
-                <img
-                  src="assets/images/laravel.png"
-                  class="mb-3"
-                  style="width: 70px; height: 45px"
-                  alt=""
-                />
-                <br />
-                <span>Laravel</span>
-              </div>
-              <div class="col-md-2">
-                <img
-                  src="assets/images/nodejs.png"
-                  class="mb-3"
-                  style="width: 70px; height: 45px"
-                  alt=""
-                />
-                <br />
-                <span>NodeJs</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /section -->
-      </div>
-      <!-- /container -->
-    </main>
-
-    <footer id="footer" class="pb-4">
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 widget">
-            <h3 class="widget-title">Contact</h3>
-            <div class="widget-body">
-              <p>
-                +6281210219995<br />
-                <a href="mailto:#">Ardhiyan15@gmail.com</a><br />
-                <br />
-                Pasarkemis Tangerang, Banten
-              </p>
+          
+          <div class="col-lg-12 mr-lg-12 col-12">
+            <!-- <div class="google-map w-100">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.558402180099!2d-73.99373482142036!3d40.75895421922642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855b8fb3083%3A0xa0f9aef176042a5c!2sTheater+District%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2smm!4v1549875377188" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div> -->
+
+            <!-- <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                  <h3 class="mb-3 text-white">Say hello</h3>
+                  <p class="footer-text mb-0">010 020 0960</p>
+                  <p><a href="mailto:hello@company.co">hello@company.co</a></p>
+                </div>
+
+                <ul class="social-links">
+                     <li><a href="#" class="uil uil-dribbble" data-toggle="tooltip" data-placement="left" title="Dribbble"></a></li>
+                     <li><a href="#" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
+                     <li><a href="#" class="uil uil-youtube" data-toggle="tooltip" data-placement="left" title="Youtube"></a></li>
+                </ul>
+            </div>
+          </div> -->
+
+          <div class="col-lg-12 col-12">
+            <div class="contact-form">
+              <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+              <form action="" method="get">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                  </div>
+
+                  <div class="col-lg-6 col-12">
+                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                  </div>
+
+                  <div class="mr-lg-auto col-lg-2 col-12">
+                    <input type="submit" class="form-control submit-btn" value="Send Button">
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
 
-          <div class="col-md-3 widget">
-            <h3 class="widget-title">Follow me</h3>
-            <div class="widget-body">
-              <p class="follow-me-icons">
-                <a href="https://wa.me/081210219995" target="_blank"
-                  ><i class="fa fa-whatsapp fa-2"></i
-                ></a>
-                <a href=""><i class="fa fa-linkedin fa-2"></i></a>
-                <a href="https://github.com/ardiyan15" target="_blank"
-                  ><i class="fa fa-github fa-2"></i
-                ></a>
-                <a href="mailto:ardhiyan15@gmail.com" style="margin-top: -20px"
-                  ><i class="fa fa-envelope fa-2"></i>
-                </a>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-6 widget">
-            <h3 class="text-white" style="margin-top: -10px">Send a message</h3>
-            <form action="">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <label for="name">Your Name</label>
-                  <input
-                    type="text"
-                    name="name"
-                    class="form-control"
-                    placeholder="Your Name"
-                  />
-                </div>
-                <div class="col-md-6 form-group">
-                  <label for="email">Your Email</label>
-                  <input
-                    type="email"
-                    name="email"
-                    class="form-control"
-                    placeholder="Your Email"
-                  />
-                </div>
-                <div class="col-md-12 form-group">
-                  <label for="message">Message</label>
-                  <textarea
-                    name="message"
-                    placeholder="Message"
-                    class="form-control"
-                    id=""
-                    cols="20"
-                    rows="5"
-                  ></textarea>
-                </div>
-                <div class="col-md-12">
-                  <button class="btn btn-primary btn-lg">Send Message</button>
-                </div>
-              </div>
-            </form>
-          </div>
         </div>
-        <!-- /row of widgets -->
       </div>
-    </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    </section>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">Copyright &copy; 2024 Ardiyan Agus Prayogo . All rights reserved</p>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
   </body>
 </html>

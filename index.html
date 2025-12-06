@@ -1,340 +1,391 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ardiyan Agus Prayoga</title>
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/index.css">
 
-    <title>Ardiyan Agus Prayogo</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header>
+    <div class="container nav">
+      <div class="nav-left">
+        <div class="nav-logo">AP</div>
+        <div class="nav-title">Ardiyan Agus Prayoga • Software Engineer</div>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/unicons.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="badge">
+            <span class="badge-dot"></span>
+            Open for remote opportunities
+          </div>
+          <h1 class="hero-title">
+            Building practical <span>web apps</span> that solve real problems.
+          </h1>
+          <p class="hero-subtitle">
+            I’m a fullstack developer who loves turning ideas into clean, maintainable products.
+            Here are some of my personal projects, experiments, and playgrounds.
+          </p>
 
-    <!-- MAIN STYLE -->
-    <link rel="stylesheet" href="css/tooplate-style.css">
-    
-<!--
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              View Projects →
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              Let’s collaborate
+            </a>
+          </div>
 
-Tooplate 2115 Marvel
-
-https://www.tooplate.com/view/2115-marvel
-
--->
-  </head>
-  <body>
-
-    <!-- MENU -->
-    <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Ardiyan Agus</a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
-                    </li>
-                </ul>
-
-                <ul class="navbar-nav ml-lg-auto">
-                    <div class="ml-lg-4">
-                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
-                        <i class="color-mode-icon"></i>
-                        Color mode
-                      </div>
-                    </div>
-                </ul>
+          <div class="hero-meta">
+            <div class="hero-meta-item">
+              ⭐ <span>6+ years experience</span>
             </div>
+            <div class="hero-meta-item">
+              🧩 <span>Fullstack: Laravel · Node.js · React</span>
+            </div>
+          </div>
         </div>
-    </nav>
+
+        <aside class="hero-card">
+          <div class="hero-orb"></div>
+          <div class="hero-card-badge">
+            Side Project · 2025
+          </div>
+
+          <div class="hero-card-tag">Featured Project</div>
+          <div class="hero-card-title">AI Powered Job Matcher</div>
+          <p class="hero-card-desc">
+            A web app that analyzes CVs and job descriptions to generate match scores and improvement suggestions.
+          </p>
+
+          <div class="hero-stack">
+            <span class="chip">NestJS</span>
+            <span class="chip">OpenAI</span>
+            <span class="chip">Supabase</span>
+          </div>
+
+          <div class="hero-card-footer">
+            <span>Role: Fullstack Dev & System Design</span>
+            <span>⚡ Built for learning & portfolio</span>
+          </div>
+        </aside>
+      </div>
+    </section>
 
     <!-- ABOUT -->
-    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
-        <div class="container">
-            <div class="row">
-                
-                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
-                    <div class="about-text">
-                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
-                        <h1 class="animated animated-text">
-                            <span class="mr-2">Hey folks, I'm</span>
-                                <div class="animated-info">
-                                    <span class="">Fullstack Developer</span>
-                                    <!-- <span class="animated-item">Web Designer</span>
-                                    <span class="animated-item">UI Specialist</span> -->
-                                </div>
-                        </h1>
-
-                        <p>Building a successful product is a challenge. I am highly energetic in user experience need, interfaces and web development.</p>
-                        
-                        <div class="custom-btn-group mt-4">
-                          <a href="document/CV.pdf" target="_blank" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
-                          <!-- <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a> -->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-5 col-md-12 col-12">
-                    <div class="about-image svg">
-                        <img src="images/undraw/undraw_progressive_app_m-9-ms.svg" class="img-fluid" alt="svg image">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section class="project py-5" id="project">
-        <div class="container">
-                
-                <div class="row">
-                  <div class="col-lg-11 text-center mx-auto col-12">
-
-                      <div class="col-lg-8 mx-auto">
-                        <h2>I have created web apps for several companies</h2>
-                      </div>
-                      <div class="owl-carousel owl-theme">
-                        <div class="item">
-                          <div class="project-info" style="box-shadow: 10px;">
-                            <h4 style="position: absolute; margin-top: -5%;" class="text-center w-100">KPI Performance</h4>
-                            <img src="images/project/kpi.png" style="margin-top: 10%; margin-left: 11%; width: 80%;" class="shadow img-fluid" alt="project image">
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info" style="box-shadow: 10px;">
-                            <h4 style="position: absolute; margin-top: -5%;" class="text-center w-100">Cash Management System Bank Syariah Indonesia</h4>
-                            <img src="images/project/cms.png" style="margin-top: 10%; margin-left: 11%; width: 80%;" class="shadow img-fluid" alt="project image">
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info" style="box-shadow: 10px;">
-                            <h4 style="position: absolute; margin-top: -5%;" class="text-center w-100">Tokopedia Clone</h4>
-                            <img src="images/project/tokped.png" style="margin-top: 10%; margin-left: 11%; width: 80%;" class="shadow img-fluid" alt="project image">
-                          </div>
-                        </div>
-                  </div>
-                </div>
-        </div>
-    </section>
-
-    <!-- FEATURES -->
-    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-6 col-12">
-                  <h2 class="mb-4">Experiences</h2>
-
-                    <div class="timeline">
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>Present</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>PHP Programmer</span><small>PT Square Gate One</small></h3>
-                                <p class="text-justify">As a PHP Programmer, I develop and maintain dynamic web applications, focusing on back-end development using PHP and frameworks like Laravel and Zend Framework.</p>
-                            </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2020</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h4><span>Junior Programmer</span><small>PT Hiro Technology Indoipta</small></h4>
-                                <p class="text-justify">As a Junior Programmer, I assist in the development and maintenance of software applications by writing clean, efficient code. I work with senior developers to implement features, fix bugs, and ensure system stability. </p>
-                            </div>
-                        </div>
-                        
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2018</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>IT Support<small>PT Gratia Prima Indonesia</small></h3>
-                                <p class="text-justify">As an IT Support specialist, I provide technical assistance to users by troubleshooting hardware, software, and network issues. I ensure smooth day-to-day operations by maintaining IT systems, installing and updating software.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-12">
-                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
-
-                    <div class="timeline">
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2020</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>Raharja University</span><small>Bachelor's Degree</small></h3>
-                                  <p>Informatics Engineering</p>
-                             </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2015</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h5><span>SMK YUPPENTEK 1 TANGERANG</span><small>High School</small></h5>
-                                <p>Elektrical Engineering</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-12 col-12">
-                  <h2 class="text-center mb-4 mobile-mt-2">Skills</h2>
-                  <ul class="d-flex justify-content-around custom-display">
-                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
-                      <img src="images/skills/html.png" alt="html" style="width: 60px; height: 30px; margin-bottom: 10px;">
-                    <p>HTML</p>
-                    </li>
-                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
-                      <img src="images/skills/css.png" alt="css" style="width: 50px; height: 30px; margin-bottom: 10px;">
-                    <p>
-                      CSS
-                    </p>
-                    </li>
-                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
-                      <img src="images/skills/javascript.png" alt="javascript" style="width: 50px; height: 30px; margin-bottom: 10px;">
-                    <p>
-                      Javascript
-                    </p>
-                    </li>
-                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
-                      <img src="images/skills/php.png" alt="php" style="width: 50px; height: 30px; margin-bottom: 10px;">
-                    <p>
-                      PHP
-                    </p>
-                    </li>
-                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
-                      <img src="images/skills/bootstrap.png" alt="bootstrap" style="width: 60px; height: 30px; margin-bottom: 10px;">
-                    <p>Bootstrap</p>
-                    </li>
-                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
-                      <img src="images/skills/codeigniter.png" alt="codeigniter" style="width: 60px; height: 30px; margin-bottom: 10px;">
-                    <p>Codeigniter</p>
-                    </li>
-                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
-                      <img src="images/skills/laravel.png" alt="laravel" style="width: 60px; height: 30px; margin-bottom: 10px;">
-                    <p>Laravel</p>
-                    </li>
-                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
-                      <img src="images/skills/react.png" alt="reactjs" style="width: 60px; height: 30px; margin-bottom: 10px;">
-                    <p>ReactJs</p>
-                    </li>
-                    <li class="text-center d-flex flex-column justify-content-center align-items-center">
-                      <img src="images/skills/nodejs.png" alt="nodejs" style="width: 60px; height: 30px; margin-bottom: 10px;">
-                    <p>NodeJs</p>
-                    </li>
-                  </ul>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="contact py-5" id="contact">
+    <section id="about">
       <div class="container">
-        <div class="row">
-          
-          <div class="col-lg-12 mr-lg-12 col-12">
-            <!-- <div class="google-map w-100">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.558402180099!2d-73.99373482142036!3d40.75895421922642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855b8fb3083%3A0xa0f9aef176042a5c!2sTheater+District%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2smm!4v1549875377188" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div> -->
+        <h2 class="section-title">About</h2>
+        <p class="section-subtitle">Who I am and how I work.</p>
 
-            <!-- <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
-                <div class="contact-info-item">
-                  <h3 class="mb-3 text-white">Say hello</h3>
-                  <p class="footer-text mb-0">010 020 0960</p>
-                  <p><a href="mailto:hello@company.co">hello@company.co</a></p>
-                </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I’m a software engineer focused on building web applications end to end: from database design,
+              business logic, to pixel perfect UI.
+            </p>
+            <p>
+              I enjoy translating real world problems into code, especially around dashboards, internal tools,
+              and business workflows.
+            </p>
 
-                <ul class="social-links">
-                     <li><a href="#" class="uil uil-dribbble" data-toggle="tooltip" data-placement="left" title="Dribbble"></a></li>
-                     <li><a href="#" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
-                     <li><a href="#" class="uil uil-youtube" data-toggle="tooltip" data-placement="left" title="Youtube"></a></li>
-                </ul>
-            </div>
-          </div> -->
-
-          <div class="col-lg-12 col-12">
-            <div class="contact-form">
-              <h2 class="mb-4">Interested to work together? Let's talk</h2>
-
-              <form action="" method="get">
-                <div class="row">
-                  <div class="col-lg-6 col-12">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
-                  </div>
-
-                  <div class="col-lg-6 col-12">
-                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
-                  </div>
-
-                  <div class="col-12">
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
-                  </div>
-
-                  <div class="mr-lg-auto col-lg-2 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send Button">
-                  </div>
-                </div>
-              </form>
+            <div class="about-list">
+              <div><strong>Location</strong> <span>Tangerang, Indonesia</span></div>
+              <div><strong>Experience</strong> <span>6+ years</span></div>
+              <div><strong>Focus</strong> <span>Fullstack Web · APIs</span></div>
+              <div><strong>Stack</strong> <span>Laravel · Node · React</span></div>
             </div>
           </div>
 
+          <div class="about-card">
+            <strong>How I approach personal projects</strong>
+            <p>
+              I treat side projects like mini products: define the problem, design simple flows,
+              ship a small version, then iterate based on feedback.
+            </p>
+            <p style="margin-top:0.5rem;">
+              Most of my projects start as a scratch idea in Notion, then become a small API + UI,
+              and sometimes evolve into something I actually use daily.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- FOOTER -->
-     <footer class="footer py-5">
-          <div class="container">
-               <div class="row">
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">
+          A selection of personal projects and experiments I’ve built to learn, explore, and solve problems.
+        </p>
 
-                    <div class="col-lg-12 col-12">                                
-                        <p class="copyright-text text-center">Copyright &copy; 2024 Ardiyan Agus Prayogo . All rights reserved</p>
-                    </div>
-                    
-               </div>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-tag">Web App · 2025</div>
+            <h3 class="project-title">AI Powered Job Matcher</h3>
+            <p class="project-description">
+              Upload your CV and a job description, get a match score, skill gap analysis,
+              and suggestions on how to improve your profile.
+            </p>
+            <div class="project-meta">
+              <span>Stack: NestJS · OpenAI · Supabase</span>
+            </div>
+            <div class="project-links">
+              <!-- <a class="project-link" href="#" target="_blank" rel="noreferrer">
+                Live Demo →
+              </a> -->
+              <a class="project-link" href="#" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-tag">Web App · 2025</div>
+            <h3 class="project-title">BSI Cash Management System</h3>
+            <p class="project-description">
+              A system that helps businesses manage payments, transfers, and cash flow in one place.
+            </p>
+            <div class="project-meta">
+              <span>Stack: Laravel · Zend Framework · Oracle</span>
+            </div>
+            <div class="project-links">
+              <a class="project-link" href="#" target="_blank" rel="noreferrer">
+                Case Study
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">UI Experiment · 2025</div>
+            <h3 class="project-title">Realtime Point of Sales</h3>
+            <p class="project-description">
+              A real-time POS application that handles transactions instantly while automatically syncing inventory, sales reports, and cashier activities.
+            </p>
+            <div class="project-meta">
+              <span>Stack: Next.Js · TypeScript · Supabase</span>
+            </div>
+            <div class="project-links">
+              <a class="project-link" href="#" target="_blank" rel="noreferrer">
+                Storybook
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-tag">Web App · 2025</div>
+            <h3 class="project-title">Dashboard Inquiry</h3>
+            <p class="project-description">
+              A merchant inquiry dashboard that provides real-time access to merchant data, profile details for easier monitoring and verification.
+            </p>
+            <div class="project-meta">
+              <span>Stack: Laravel · MySQL · Background Processing</span>
+            </div>
+            <div class="project-links">
+              <a class="project-link" href="#" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Web App · 2024</div>
+            <h3 class="project-title">E-Library System</h3>
+            <p class="project-description">
+              An e-Library system that allows users to search, read, and manage digital books with easy access from any device.
+            </p>
+            <div class="project-meta">
+              <span>Stack: Express · NodeJs · MySQL</span>
+            </div>
+            <div class="project-links">
+              <a class="project-link" href="#" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-tag">Web App · 2022</div>
+            <h3 class="project-title">Asset Management</h3>
+            <p class="project-description">
+              A platform that helps businesses record, track, and maintain their assets with real time status updates and lifecycle monitoring.
+            </p>
+            <div class="project-meta">
+              <span>Stack: Codeigniter · PHP · MySQL</span>
+            </div>
+            <div class="project-links">
+              <!-- <a class="project-link" href="#" target="_blank" rel="noreferrer">
+                Live Demo →
+              </a> -->
+              <a class="project-link" href="#" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle">
+          Tools and technologies I use regularly in my projects.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skills-groups">
+            <div class="skill-group">
+              <h3>Backend</h3>
+              <div class="skill-tags">
+                <span class="skill-chip">PHP · Laravel</span>
+                <span class="skill-chip">Node.js · Express</span>
+                <span class="skill-chip">NestJS</span>
+                <span class="skill-chip">REST API</span>
+                <span class="skill-chip">JWT · Auth</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Frontend</h3>
+              <div class="skill-tags">
+                <span class="skill-chip">React</span>
+                <span class="skill-chip">Vue</span>
+                <span class="skill-chip">TypeScript</span>
+                <span class="skill-chip">Tailwind / Bootstrap</span>
+                <span class="skill-chip">SPA · SSR</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Data & Infra</h3>
+              <div class="skill-tags">
+                <span class="skill-chip">MySQL · PostgreSQL</span>
+                <span class="skill-chip">Oracle (basics)</span>
+                <span class="skill-chip">Git · GitHub</span>
+                <span class="skill-chip">Docker (basic)</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Practices</h3>
+              <div class="skill-tags">
+                <span class="skill-chip">Clean Code</span>
+                <span class="skill-chip">API Design</span>
+                <span class="skill-chip">Debugging</span>
+                <span class="skill-chip">System Design (small scale)</span>
+              </div>
+            </div>
           </div>
-     </footer>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/Headroom.js"></script>
-    <script src="js/jQuery.headroom.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/custom.js"></script>
+          <div class="skill-levels">
+            <p style="margin-bottom:0.7rem;">Rough confidence levels (based on daily use):</p>
 
-  </body>
+            <div class="skill-level-row">
+              <span>Backend (Laravel / Node)</span>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" style="width: 88%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-level-row">
+              <span>Frontend (React / Vue)</span>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" style="width: 84%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-level-row">
+              <span>Databases & Queries</span>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-level-row">
+              <span>DevOps / Infra</span>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" style="width: 60%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">
+          Want to talk about a project, collaboration, or just say hi? Reach out.
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <p>
+              I’m open to freelance, remote roles, or interesting side projects,
+              especially around dashboards, internal tools, or AI assisted workflows.
+            </p>
+
+            <ul class="contact-list">
+              <li><strong>Email:</strong> <span>ardhiyan15@gmail.com</span></li>
+              <li><strong>GitHub:</strong> <span><a href="https://github.com/ardiyan15" target="_blank">github.com/ardiyan15</a></span></li>
+              <li><strong>LinkedIn:</strong> <span><a href="https://www.linkedin.com/in/ardiyan-agus-prayoga-547247187" target="_blank">linkedin.com/in/ardiyan-agus-prayoga-547247187</a></span></li>
+            </ul>
+          </div>
+
+          <form class="contact-form" onsubmit="event.preventDefault(); alert('This form is static. Hook it to your backend or a service like Formspree.');">
+            <div class="form-group">
+              <label class="form-label" for="name">Name</label>
+              <input class="form-input" id="name" type="text" placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email</label>
+              <input class="form-input" id="email" type="email" placeholder="you@example.com" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">Message</label>
+              <textarea class="form-textarea" id="message" placeholder="Tell me a bit about what you need..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="margin-top:0.4rem;">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Ardiyan Agus Prayoga. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
